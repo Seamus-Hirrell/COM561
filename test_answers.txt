@@ -1,0 +1,37 @@
+1.
+a. parallel, b. concurrent
+
+2.
+Mutual exclusion means that two processes cannot access a particular variable at the same time.
+
+Condition synchronisation is when a condition must be true in order for a process to access a variable. Multiple processes synchronise their access to a shared variable by waiting until the condition is satisfied.
+
+3.
+When multiple threads have equal priorities, the threads will execute at random. It is possible that a particular thread may never get to execute.
+
+4.
+both a and b are incorrect
+
+5.
+A race condition is when two threads access the same variable without coordinating with each other.
+
+This can cause unpredictable results from run to run based on the order in which each thread reads and writes to the variable.
+
+6.
+only b is incorrect
+
+7.
+The join() method in Java allows one thread to wait until another thread completes its execution.
+
+8.
+Processes are managed by the operating system. They operate at the kernel level.
+
+Threads are created and managed by the program. They operate at the user level.
+
+9.
+Semaphores handle both condition synchronisation and mutual exclusion. Semaphore code is scattered thoughout the application.
+
+Monitors have private variables to keep track of conditions. These variables can only be accessed by methods on the monitor, and cannot be accessed directly.
+
+10.
+mutual exclusion
